@@ -1,0 +1,19 @@
+<div>
+  <span>Upper Case:</span>First Name: {{firstName|uppercase}}<br/>
+  <span>Upper Case:</span>Last Name: {{lastName|uppercase}}<br/>
+  <span>Lower Case:</span> City: {{city|lowercase}}<br/>
+  <span>Today is:{{currDate|date}}</span><br/>
+  <span>Today is:{{currDate|date:'short'}}</span><br/>
+  <span>Today is:{{currDate|date:'shortDate'}}</span><br/>
+  <span>Currency:</span>You have shopped worth {{amount|currency}}<br/>
+  <span>Currency:</span>You have shopped worth {{amount|currency:'INR'}}<br/>
+  <span>Currency:</span>You have shopped worth {{amount|currency:'AUD'}}<br/>
+  <span>Currency:</span>You have shopped worth {{amount|currency:'CAD'}}<br/>
+  <span>Currency:</span>You have shopped worth {{amount|currency:'GBP'}}<br/>
+  <span>Currency:</span>You have shopped worth {{amount|currency:'EUR'}}<br/>
+  <span>Value of PI is {{ pi | number}}</span><br/><br/>
+  <span>Value of PI is {{ pi | number:'4.1-5'}}</span><br/><br/>
+  <span>Profit Percentage is {{ profitPer | percent}}</span><br/><br/>
+  <span>Profit Percentage is {{ profitPer | percent:'4.3-5'}}</span><br/><br/>
+  <span>JSON object: {{ jsonInfo | json }}</span>
+</div>
